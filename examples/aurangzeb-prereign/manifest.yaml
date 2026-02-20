@@ -1,0 +1,77 @@
+metadata:
+  title: "Aurangzeb: From Prince to Emperor"
+  subtitle: "Youth, Commands, and the War of Succession 1618–1658"
+  theme: "parchment"
+  output: "aurangzeb-prereign.png"
+  dimensions: [3600, 1200]
+
+timeline:
+  start: 1610
+  end: 1665
+  tick_interval: 10
+  minor_interval: 2
+
+periods:
+  - start: 1618
+    end: 1636
+    label: "Boyhood at Court"
+    color: "#4A7A3A"
+    track: 1
+  - start: 1636
+    end: 1657
+    label: "Provincial Commands"
+    color: "#8B6914"
+    track: 1
+  - start: 1657
+    end: 1658
+    label: "War of Succession"
+    color: "#8B2020"
+    track: 2
+
+events:
+  - date: 1618
+    label: "Born in Dahod, Gujarat"
+    side: "above"
+  - date: 1628
+    label: "Shah Jahan ascends throne"
+    side: "below"
+  - date: 1633
+    label: "First elephant combat — praised by Shah Jahan"
+    side: "above"
+  - date: 1636
+    label: "Viceroy of the Deccan (1st time)"
+    side: "below"
+  - date: 1644
+    label: "Dismissed from Deccan — dispute with Dara Shikoh"
+    side: "above"
+  - date: 1645
+    label: "Governor of Gujarat"
+    side: "below"
+  - date: 1647
+    label: "Governor of Balkh & Badakhshan — Central Asia campaign"
+    side: "above"
+  - date: 1652
+    label: "Viceroy of the Deccan (2nd time)"
+    side: "below"
+  - date: 1657
+    label: "Shah Jahan falls gravely ill"
+    side: "above"
+  - date: 1658
+    label: "Battle of Samugarh — Dara defeated; Aurangzeb crowned Alamgir"
+    side: "below"
+
+title_cartouche:
+  position: "top-left"
+
+narrative:
+  position: "bottom-right"
+  width: 0.28
+  text: >
+    Aurangzeb (1618–1707) spent forty years as a Mughal prince before
+    seizing the throne. Renowned for personal piety, military tenacity,
+    and administrative ability, he served as viceroy in Gujarat and twice
+    in the Deccan, leading campaigns as far as Central Asia. When Shah
+    Jahan fell ill in 1657, four sons fought for succession. Aurangzeb
+    outmanoeuvred his brothers, imprisoned his ailing father in Agra Fort,
+    and was crowned Alamgir in 1658 — beginning a reign of nearly fifty years.
+  reference: "Sarkar, J.N., History of Aurangzib (1912–24)"

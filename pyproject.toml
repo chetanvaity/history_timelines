@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "history_timelines"
+version = "0.1.0"
+description = "Generate beautiful, publication-quality history timelines as PNG"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib>=3.5.0",
+    "numpy>=1.20.0",
+    "Pillow>=9.0.0",
+    "PyYAML>=6.0",
+]
+
+[project.scripts]
+history-timeline = "history_timelines.render_timeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
